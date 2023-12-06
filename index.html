@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Segitiga</title>
-    <link rel="stylesheet" href="27-nov-23-SysAlifahA11\CSS\style.css">
-    <script src="27-nov-23-SysAlifahA11\js\script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="navigation-bar">
         <h3 id="logo">SegiTegar</h3>
         <nav class="navigation">
-         <a href="">Luas Segitiga</a>
-         <a href="">Keliling Segitiga</a>
+         <a href="" id="pilih-luas">Luas Segitiga</a>
+         <a href="" id="pilih-kel">Keliling Segitiga</a>
         </nav>
     </header>
-    
+    <br>
+    <img src="https://blog-static.mamikos.com/wp-content/uploads/2021/04/luas-segitiga.jpg" alt="rumus luas Segitiga" width="350" height="200">
+    <br>
+    <section class="input-luas-section">
+        <label for="input-tinggi" id="label-tinggi">Tinggi</label>
+        <input type="number" id="input-tinggi">
+        <label for="input-alas" id="label-alas">Alas</label>
+        <input type="number" id="input-alas">
+        <button id="button-hitung">Hitung</button>
+        <button id="button-reset">Reset</button>
+        <br>
+        <div id="output"></div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
