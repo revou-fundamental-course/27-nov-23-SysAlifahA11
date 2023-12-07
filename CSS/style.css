@@ -13,6 +13,11 @@ body {
     font: small-caps bold sans-serif;
   }
 
+  h3 {
+    color: #265073;
+    font: small-caps bold sans-serif;
+  }
+
   a {
     border: #2D9596; color: antiquewhite; 
     font: 1.2rem "Fira Sans", sans-serif;
