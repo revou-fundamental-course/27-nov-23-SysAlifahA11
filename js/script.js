@@ -30,11 +30,12 @@ const hitung1 = document.getElementById('button-hitung1')
 const reset1 = document.getElementById('button-reset1')
 const output1 = document.getElementById('output1')
 
+
 hitung1.addEventListener(`click`, function(){
     let s1 = ab.value
     let s2 = bc.value
     let s3 = ca.value
-    let k = s1+s2+s3
+    let k = parseInt(s1)+parseInt(s2)+parseInt(s3)
     output1.innerHTML = `Keliling segitiga dengan sisi ${s1}cm, ${s2}cm, dan ${s3}cm adalah ${k}cm`
 })
 
