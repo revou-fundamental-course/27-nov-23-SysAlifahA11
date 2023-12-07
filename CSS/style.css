@@ -39,3 +39,11 @@ body {
   div {
     font: 1.2rem "Fira Sans", sans-serif;
   }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #265073;
+    color:#ECF4D6;
+    ;
+  }
