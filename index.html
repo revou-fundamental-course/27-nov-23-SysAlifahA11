@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header id="navigation-bar">
-        <h3 id="logo">SegiTegar</h3>
+        <h1 id="logo">SegiTegar</h1>
         <nav class="navigation">
          <a href="" id="pilih-luas">Luas Segitiga</a>
          <a href="" id="pilih-kel">Keliling Segitiga</a>
         </nav>
     </header>
+    
     <br>
+
     <img src="https://blog-static.mamikos.com/wp-content/uploads/2021/04/luas-segitiga.jpg" alt="rumus luas Segitiga" width="350" height="200">
+    
     <br>
+
     <section class="input-luas-section">
         <label for="input-tinggi" id="label-tinggi">Tinggi</label>
         <input type="number" id="input-tinggi">
@@ -27,6 +32,27 @@
         <br>
         <div id="output"></div>
     </section>
+
+    <br>
+
+    <img src="https://sdnegerigondolayu.files.wordpress.com/2016/05/segitiga-sama-sisi.png" alt="rumus keliling segitiga" width="200" height="200">
+    <p>Keliling= AB + BC + CA </p>
+
+    <br>
+
+    <section class="input-kel-section">
+        <label for="input-sisiab" id="label-sisiab">Sisi AB</label>
+        <input type="number" id="input-sisiab">
+        <label for="input-sisibc" id="label-sisibc">Sisi BC</label>
+        <input type="number" id="input-sisibc">
+        <label for="input-sisica" id="label-sisica">Sisi CA</label>
+        <input type="number" id="input-sisica">
+        <button id="button-hitung">Hitung</button>
+        <button id="button-reset">Reset</button>
+        <br>
+        <div id="output"></div>
+    </section>
+
     <script src="js/script.js"></script>
 </body>
 </html>
